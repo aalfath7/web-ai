@@ -1,0 +1,183 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav h1{
+  color: white;
+  margin: 1em 2em 1em;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 60px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* side assigment */
+.sideAss {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sideAss h1{
+  color: white;
+  margin: 1em 2em 1em;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+
+.sideAss a {
+  padding: 8px 8px 8px 60px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.sideAss a:hover {
+  color: #f1f1f1;
+}
+
+.sideAss .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sideAss {padding-top: 15px;}
+  .sideAss a {font-size: 18px;}
+}
+
+/* about me */
+#about-me{
+  margin-top: 10em;
+  display: block;
+}
+
+/* main member display*/
+#member{
+  margin: 5em 1em;
+  text-align: center;
+  border-radius: 1em;
+  display: block;
+}
+
+.box img{
+  border-radius: 50%;
+  box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+  margin: 1em;
+  padding: 1em;
+  width: 15em;
+  height: 15em;
+}
+
+#text hr{
+  width: 70%;
+}
+#text h1{
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+#text p{
+  text-transform: capitalize;
+
+}
+
+#formatif{
+  margin: 3em 1em 1em 1em;
+  box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+  padding: 5em 1em 1em 1em;
+  border-radius: 1em;
+}
+#formatif p{
+  text-align: justify;
+  line-height: 2em;
+  margin-top: 2em;
+  text-transform: initial;
+}
+#formatif p img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+@media (min-width: 500px){
+  #member{
+    margin: 10em 1em;
+  }
+  #formatif p img{
+    width: 40%;
+  }
+}
+
+@media (min-width: 1180px){
+  #member{
+    margin: 10em;
+    display: flex;
+  }
+  #text #name{
+    text-align: start;
+    font-size: 3em;
+    margin: 1em 0 0 1em;
+  }
+  #NPM, #jobdesk{
+    text-align: start;
+    margin: 1em 0 0 2.5em;
+    font-size: 1.2em;
+  }
+  #text .sos-med, 
+  #text hr{
+    text-align: start;
+    margin: 1em 0 0 2.5em ;
+  }
+  #formatif{
+    padding-top: 5em;
+  }
+}
+

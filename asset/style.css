@@ -1,0 +1,266 @@
+*{
+  font-family: Comfortaa;
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* nav */
+nav{
+  padding: 3em 6em 3em 3em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  margin: -3em 0 0 0;
+  transition: 1s;
+}
+nav a,
+nav #right a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  transition: 0.3s;
+}
+nav a:hover,
+nav #right a:hover{
+  color: gray;
+}
+nav #right{
+  margin-right: 5em;
+}
+nav #right a{
+  margin-right: 1em;
+}
+
+/* welcome section */
+#welcome-section{
+  display: flex;
+  padding: 2em;
+  margin-top: 3em;
+  justify-content: center;
+}
+#welcome-section img{
+  width: 60px;
+  height: 60px;
+  margin: 1em;
+}
+#welcome-section #description h1{
+  font-size: 1.5em;
+  text-transform: capitalize;
+  color: white;
+}
+#welcome-section #description p{
+  text-transform: capitalize;
+  margin: -1.2em 0.5em;
+  font-size: 0.8em;
+  color: white;
+}
+@media (min-width: 500px){
+  #welcome-section img{
+    width: 80px;
+    height: 80px;
+  }
+  #welcome-section #description h1{
+    font-size: 2em;
+  }
+  #welcome-section #description p{
+    font-size: 1em;
+  }
+}
+
+/* background */
+#background img{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  filter: brightness(50%);
+  object-fit: cover;
+}
+
+@media (min-width: 500px){
+  #background img{
+    width: 100%;
+    height: 280px;
+  }  
+}
+
+/* title material */
+#title-material{
+  margin: 7em 2em 2em;
+  background-color: lightblue;
+  border-radius: 1em;
+  padding: 1em;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#items h1{
+  font-size: 2em;
+  color: #b8bb2a;
+  text-transform: capitalize;
+}
+#items h1 i{
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+#items p{
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
+
+@media (min-width: 700px){
+  #title-material{
+    padding: 2em;
+    margin: 10em 4em 2em;
+  }
+  #title-material h1{
+    font-size: 1.2em;
+  }
+  #items h1{
+    font-size: 3em;
+  }
+  #items p{
+    font-size: 1em;
+    margin-top: -1em;
+    text-transform: capitalize;
+  }
+  
+}
+
+@media (min-width: 700px){
+  #title-material{
+    padding: 2em;
+  }
+  #title-material h1{
+    font-size: 1.2em;
+  }
+  #items h1{
+    font-size: 4em;
+  }
+  #items p{
+    font-size: 1em;
+    margin-top: -1em;
+    text-transform: capitalize;
+  }
+  
+}
+
+
+/* team section */
+#our-team{
+  margin: 4em 1em 0;
+  text-align: center;
+  /* box-shadow: 0 10px 10px rgba(0,0,0,0.1); */
+  border-radius: 1em;
+  padding: 4em 1em 2em;
+}
+#our-team h1{
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+#our-team .box{
+  margin: 3em 0;
+  box-shadow: 0 5px 5px 5px rgba(0,0,0,0.1);
+  padding: 2em;
+  border-radius: 1em;
+}
+
+@media (min-width: 400px){
+  #our-team .box{
+    display: inline-block;
+    margin: 1em;
+    width: 16em;
+    height: 19em;
+  }
+}
+
+#our-team .box p{
+  text-transform: capitalize;
+}
+
+#our-team .box img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 0.5em solid white;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.sos-med a i{
+  color: black;
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.sos-med a i:hover{
+  color: gray;
+}
+
+/* main section */
+#main{
+  margin: 2em;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+  border-radius: 1em;
+  text-align: center;
+  padding: 5em 1em 1em 1em;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+#sipaku,
+#sipaku-dec{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#main p, 
+#main ul li{
+  line-height: 2em;
+}
+
+#main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 500px){
+  #main{
+    margin: 1em;
+  }
+}
+
+@media (min-width: 900px){
+  #main{
+    margin: 13em;
+  }
+}
+
+/* main table */
+#main .table table{
+  border-collapse: collapse;
+
+}
+#main .table{
+  overflow-x: auto;
+}
+#main .table table, 
+#main .table table tr,
+#main .table table td,
+#main .table table th{
+  border: 1px solid black;
+  padding: 1em;
+}
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 2em;
+}
