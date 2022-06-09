@@ -33,9 +33,9 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeAss()">&times;</a>
     <h1>All Assigment</h1>
     <a href="index.html">Assigment 1</a>
-    <a href="#second-main">Assigment 2</a>
-    <a href="Assigment3.html">Assigment 3</a>
-    <a href="Assigment4.html">Assigment 4</a>
+    <a href="Assigment3.html">Assigment 2</a>
+    <a href="#second-main">Assigment 3</a>
+    <a href="#Assigment4.html">Assigment 4</a>
     <a href="Assigment5.html">Assigment 5</a>
   </div>
 
@@ -117,79 +117,83 @@
   </section>
 
   <section id="second-main">
-    <h1 class="title">Tugas</h1>
-    <p class="title">Referensi lain : </p>
-    <p class="title">judul : <strong> JARINGAN SYARAF TIRUAN UNTUK PERAMALAN PERMINTAAN BARANG</strong></p>
-    <p class="title">penulis : Wiwik Anggraeni, Jurusan Sistem Informasi,Fakultas Teknologi Informasi, Institut Teknologi Sepuluh Nopember</p>
-    <p id="pdf-btn"><a href="https://docplayer.info/43373481-Aplikasi-jaringan-syaraf-tiruan-untuk-peramalan-permintaan-barang.html">lihat jurnal</a></p>
-    <p class="title">kesimpulan : </p>
-    <p>Pembuatan jaringan saraf tiruan tidak diprogram untuk menghasilkan keluaran tertentu. Semua keluaran atau kesimpulan yang ditarik oleh jaringan didasarkan pada pengalamannya selama mengikuti proses pembelajaran. Pada proses pembelajaran, ke dalam jaringan saraf tiruan dimasukkan pola-pola input atau output lalu jaringan akan diajari untuk memberikan jawaban yang bisa diterima. Hal yang ingin dicapai dengan melatih/mengajari jaringan saraf tiruan adalah untuk mencapai keseimbangan antara kemampuan memorisasi (kemampuan jaringan saraf tiruan untuk memanggil kembali secara sempurna sebuah pola yang telah dipelajari) dankemampuan generalisasi (kemampuan jaringan saraf tiruan untuk menghasilkan respons yang bisa diterima terhadappola-pola input yang serupa namun tidak identik dengan pola-pola yang sebelumnya telah dipelajari</p>
-    <br><br>
-    <p class="title"><strong>tugas formatif</strong></p>
-    <p>1.	Sebutkan dan jelaskan beberapa contoh perangkat keras yang mengimplementasikan model jaringan syaraf tiruan!<br>
+    <p class="title"><strong>Tugas Formatif</strong></p>
+    <p>
+      1.	Sebutkan dan jelaskan beberapa contoh perangkat keras yang mengimplementasikan model jaringan syaraf tiruan! <strong>(Bagian Muhammad Fajar Laksana)</strong><br>
       Jawab :<br>
       a.	Implementasi Jaringan Syaraf Tiruan untuk Mengendalikan Lampu Sein Pada Sepeda 
       Motor<br>
       Metode Jaringan Syaraf Tiruan yang akan mematikan lampu sein secara otomatis melalui beberapa kondisi tertentu. Metode kontrol jaringan syaraf tiruan yang digunakan adalah Backpropagation yang dikembangakan dan diuji simulasi dengan MATLAB 2017a<br>
       
       b.	Implementasi Jaringan Saraf Tiruan Berbasis Ram Pada Robot Wall Follower Dengan 
-      Algoritma Maze Mapping Untuk Menentukan Rute Tercepat<br>
+      Algoritma Maze Mapping Untuk Menentukan Rute Tercepat
       Robot wall follower yang bernavigasi mengikuti dinding harus mempelajari posisi dinding disekitarnya agar dapat bernavigasi dengan aman tanpa merusak dinding. Pembelajaran jarak posisi dinding akan menggunakan metode jaringan saraf tiruan berbasis ram. Terdapat 3 ram node untuk menyimpan pola dari sensor kiri, sensor kanan dan sensor depan. 8 bit pola masukan yang diterima akan dioptimasi sehingga hanya 4 bit yang tersimpan pada ram node. Sehingga proses komputasi lebih sederhana.<br><br>
       
-      2.	Hal-hal apa saja yang harus diperhatikan dalam pemilihan paradigma?<br>
-      Jawab :<br>
-      Dalam pemilihan model pembelajaran neural network, hal-hal yang harus diperhatikan adalah sebagai berikut:<br>
-      a.	Ukuran jaringan<br>
+      2.	Hal-hal apa saja yang harus diperhatikan dalam pemilihan paradigma? <strong>(Bagian Kwinny Intan Filya) </strong><br>
+      Jawab : <br>
+      Dalam pemilihan model pembelajaran neural network, hal-hal yang harus diperhatikan adalah sebagai berikut: <br>
+      1.	Ukuran jaringan<br>
       Pada saat mendesain jaringan saraf tiruan, kebutuhan node dan lapisan dapat diperkirakan. Untuk jaringan berukuran besar maka tentunya tidak mungkin menggunakan metode pembelajaran yang hanya menampung jaringan kecil. Seperti teknik Hopfield menampung, jaringan yang lebih kecil dari Teknik propagasi yang mampu menampung jaringan yang berukuran lebih besar. Kapasitas pola yang bisa disimpan jaringan propagasi balik relatif lebih besar dari pada jaringan Hopfield.<br>
       
-      b.	Pembawaan input dan output<br>
+      2.	Pembawaan input dan output<br>
       Pembawaan input dan output, misalnya matriks angka sesuai untuk optimisasi, diskrit untuk klasiifikasi dan pengenalan pola.<br>
       
-      c.	Mekanisme memori<br>
-      Mekanisme memori ada dua macam, yaitu memori autoasosiatif dan metode heteroasosiatif.
-      ~Memori Autoasosiatif, mengambil informasi secara parsial yang kemudian digunakan untuk merekonstruksi pola yang sudah tersimpan sebelumnya. Karena setiap pola diasosiasikan dengan dirinya sendiri. Jika suatu ketika input yang kurang lengkap dimasukkan ke dalam jaringan, pola yang tepat masih tetap bisa dipanggil.<br>
-      ~Memori heteroasosiatif merupakan sebuah jaringan saraf yang didesain menghubungkan pasangan pola input dengan pola output, dimana pola input dan pola outputnya tidak sama.<br>
+      3.	Mekanisme memori<br>
+      Mekanisme memori ada dua macam, yaitu memori autoasosiatif dan metode heteroasosiatif.<br>
+      <ul>
+        <li>a). Memori Autoasosiatif, mengambil informasi secara parsial yang kemudian digunakan untuk merekonstruksi pola yang sudah tersimpan sebelumnya. Karena setiap pola diasosiasikan dengan dirinya sendiri. Jika suatu ketika input yang kurang lengkap dimasukkan ke dalam jaringan, pola yang tepat masih tetap bisa dipanggil.</li>
+        <li>
+          b). Memori heteroasosiatif merupakan sebuah jaringan saraf yang didesain menghubungkan pasangan pola input dengan pola output, dimana pola input dan pola outputnya tidak sama.
+        </li>
+      </ul>		
       
-      d.	Tipe pelatihan: terawasi dan tidak terawasi<br>
+      <span class="paragraf">
+      4.	Tipe pelatihan: terawasi dan tidak terawasi<br>
       Pelatihan terawasi: pelatihan yang menghadirkan pelatihan serangkaian vector input pelatihan yang masing-masing berhubungan dengan vektor output yang menjadi targetnya.<br>
-      
-      e.	Pelatihan tidak terawasi neural network yang mengorganisasikan dirinya sendiri membentuk vektor input yang sama tanpa menggunakan data pelatihan untuk menunjukkan vektor tersebut termasuk ke dalam kelompok yang mana.<br>
-      
-      f.	Batasan waktu operasi rutin dan sistem berjalan<br>
+      5.	Pelatihan tidak terawasi neural network yang mengorganisasikan dirinya sendiri membentuk vektor input yang sama tanpa menggunakan data pelatihan untuk menunjukkan vektor tersebut termasuk ke dalam kelompok yang mana.<br>
+      6.	Batasan waktu operasi rutin dan sistem berjalan<br>
       Batasan waktu berbeda-beda tergantung dari model dan ukuran jaringan serta kualitas input data. <br><br>
-      3.	Sebutkan 3 aspek deklaratif dalam verifikasi jaringan syaraf tiruan!<br>
+      3.	Sebutkan 3 aspek deklaratif dalam verifikasi jaringan syaraf tiruan! <strong>(Bagian Nazmah Wulan Romadhona)</strong><br>
       Jawab :<br>
       Beberapa aspek deklaratif dalam verifikasi neural network, yaitu:<br>
+      1.	Jaringan<br>
       <ul>
-        <li>1.	Jaringan</li>
-        <ul>
-          <li class="list">a)	Apakah arsitektur neural network berbentuk lapisan tunggal atau multilapis ?</li>
-          <li class="list">b)	Apakah aliran informasi jaringan adalah umpan maju atau berulang ?</li>
-          <li class="list">c)	Apakah pola terhubung penuh atau Sebagian ?</li>
-        </ul>
-        <li>2.	Unit</li>
-        <ul>
-          <li class="list">a)	Bagaimana koneksi inputnya?</li>
-          <li class="list">b)	Bagaimana koneksi outputnya?</li>
-          <li class="list">c)	Mengenai non linier itu apakah hard limit atau sigmoid atau tangen hiperbola?</li>
-        </ul>
-        <li>3.	Perilaku</li>
-        <ul>
-          <li class="list">a)	Bagaimana inisialisasi bobotnya?</li>
-          <li class="list">b)	Bagaimana perhitungan aktivasinya?</li>
-          <li class="list">c)	Bagaimana pengupdate bobotnya?</li>
-        </ul>
-        <li></li>
+        <li>a)	Apakah arsitektur neural network berbentuk lapisan tunggal atau multilapis ?</li>
+        <li>b)	Apakah aliran informasi jaringan adalah umpan maju atau berulang ?</li>
+        <li>c)	Apakah pola terhubung penuh atau Sebagian ?</li>
       </ul>
-      Hal lain yang juga perlu diverifikasi adalah apakah persamaan-persamaan matematika dari teknik neural network yang dipilih sudah diimplementasikan dengan benar. Verifikasi aspek procedural, yaitu:
+      2.	Unit<br>
       <ul>
-        <li class="list">1)	Konvergensi<br>
+        <li>a)	Bagaimana koneksi inputnya?</li>
+        <li>b)	Bagaimana koneksi outputnya?</li>
+        <li>c)	Mengenai non linier itu apakah hard limit atau sigmoid atau tangen hiperbola?</li>
+      </ul>
+      3.	Perilaku<br>
+      <ul>
+        <li>a)	Bagaimana inisialisasi bobotnya?</li>
+        <li>b)	Bagaimana perhitungan aktivasinya?</li>
+        <li>c)	Bagaimana pengupdate bobotnya?</li>
+      </ul><br>
+      </span>
+      
+      
+      <span class="paragraf">
+      Hal lain yang juga perlu diverifikasi adalah apakah persamaan-persamaan matematika dari teknik neural network yang dipilih sudah diimplementasikan dengan benar. Verifikasi aspek procedural, yaitu:<br>
+      </span>
+
+      <ul>
+        <li>1)	Konvergensi<br>
           Apakah neural network akan berkonvergensi ke sebuah nilai asimtot melalui epoch-epoch yang dijalani selama tahap pelatihan?
         </li>
-        <li class="list">2)	Stabilitas<br>
+        <li>2)	Stabilitas<br>
           Apakah perulangan yang terjadi semakin lama semakin membawa perubahan
-          output dan mendekati konstan?</li>
+          output dan mendekati konstan?
+        </li>
       </ul>
+
+      <span class="paragraf">
+        Mengenai pengujian terhadap jaringan saraf tiruan biasa dilakukan dengan cara melihat dari bobotnya. Bila bobotnya bernilai sangat kecil menunjukkan ada node-node yang sebenarnya tidak diperlukan. Untuk menganalisis bobot-bobot ini, antar muka pemakai sebaiknya dibuat sedemikian sehingga output numeriknya dapat dibaca. Dan lebih baik jika output dalam bentuk grafis sehingga perubahan yang terjadi selama pelatihan dan pengujian jaringan mudah untuk dipantau. <br>
+      </span>
       </p>
   </section>
 

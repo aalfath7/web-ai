@@ -37,9 +37,16 @@
   line-height: 2em;
 }
 
+#second-main ul li,
+#second-main .paragraf{
+  line-height: 2em;
+  list-style-type: none;
+}
+
 
 @media (min-width: 900px ){
   #second-main{
     margin: 10em;
   }
 }
+
